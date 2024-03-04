@@ -1,0 +1,179 @@
+.greatcoffee__contener{
+  background-image: url(../../img/Bitmap.jpeg);
+  height: 600px;
+  width: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.greatcoffee__box{
+  max-width: 493px;
+  padding: 100px 0 200px 56px;
+  text-align: left;
+}
+.greatcoffee__title{
+  color: white;
+  font-family: fraunces  9pt;
+  font-size: 72px;
+  font-weight: 900px;
+  line-height: 72px;
+  letter-spacing: 0px;
+  margin-bottom: 32px;
+}
+.greatcoffee__text{
+  color: white;
+  font-family: barlow;
+  font-size: 16px;
+  font-weight: 26px;
+  font-weight: 400px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.greatcoffee__btn{
+  color: white;
+  font-family:fraunces  9pt ;
+  font-size: 18px;
+  font-weight: 900px;
+  line-height: 25px;
+  border-radius: 6px;
+  background-color: aqua;
+  padding: 15px 30px;
+
+  .greatcoffee__box{
+    padding: 100px 0 100px 50px;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .greatcoffee__contener{
+    height: 600px;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width:690px){
+  .greatcoffee__contener{
+    height: 600px;
+    padding-bottom: 0;
+  }
+  .greatcoffee__box{
+    padding:50px 0 50px 50px;
+    text-align: center;
+  }
+
+
+}
+
+
+@media screen  and (max-width:522px) {
+  .greatcoffee__box{
+    padding:50px 0 50px 3 0px;
+    text-align: center;
+  }
+   .greatcoffee__title{
+    color: white;
+    font-family: fraunces  9pt;
+    font-size: 40px;
+    font-weight: 900px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+   }
+  .greatcoffee__text{
+    color: white;
+    font-family: barlow;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+   }
+   .greatcoffee__btn{
+    text-align: center;
+   }
+}
+
+
+.greatcoffee__section{
+  margin: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.greatcoffee__titl{
+  margin-top: 25px;
+  font-size: 25px;
+  text-align: center;
+}
+.greatcoffee__tekist{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.greatcoffee__foot{
+  color: white;
+  background-color: rgba(0, 0, 15, 0.427);
+}
+.greatcoffee__list{
+ align-items: center;
+ justify-content: space-between;
+ text-align: center;
+ gap: 20px;
+flex-wrap: wrap;
+
+}
+// .greatcoffee__contin{
+//   width: 1200px;
+//   margin-top: 0;
+//   margin-bottom: 0;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+.greatcoffee__bitem{
+  font-size: 10px;
+
+  text-align: center;
+  border: none;
+  width: 200px;
+  height: 180px;
+  background-color: rgb(38, 154, 154);
+}
+.greatcoffee__timeline{
+  width: 50px;
+}
+.greatcoffee__btn{
+  border: none;
+  background-color: aqua;
+  color: white;
+}
+.greatcoffee__fee{
+
+}
+.greatcoffee__fee{
+  color: orange;
+  font-size: 60px;
+}
+.greatcoffee__file{
+ display: flex;
+  align-items: baseline;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.greatcoffee__class{
+  height: 90px;
+ background-color: black;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.greatcoffee__inst{
+  align-items: center;
+  display: flex;
+  left: 59px;
+  // justify-content: space-between;
+  height: 40px;
+  width: 40px;
+}
+

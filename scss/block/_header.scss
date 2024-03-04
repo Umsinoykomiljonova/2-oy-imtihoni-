@@ -1,0 +1,46 @@
+.siteheader__contener{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.siteheader__list{
+  display: flex;
+  justify-content: space-between;
+  width: 283px;
+}
+.siteheader__logolink{
+  width: 236px;
+  flex-shrink: 1;
+}
+.siteheader__item{
+   color: gray;
+   font-family: Barlow;
+   font-size: 12px;
+   font-weight: 700px;
+   line-height: 15px;
+   letter-spacing: 0.92px;
+}
+.siteheader__menyu{
+  width: 16px ;
+  height: 16px;
+  background-color: black;
+  background-repeat: no-repeat;
+  border: none;
+  display: none;
+}
+
+
+@media only screen and (max-width:700px){
+   .siteheader__list{
+    display: none;
+   }
+   .siteheader__menyu{
+    display: inline-block;
+   }
+}
+
+@media screen and (max-width:420px) {
+   .siteheader__logolink{
+    widows: 140px;
+   }
+}
